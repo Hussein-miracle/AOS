@@ -7,9 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
     <title>AOS</title>
+    
+    
 </head>
 <body>
     <header class="main-header">
@@ -31,7 +34,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-right" data-aos-anchor-placement="top-center">
             <img src="./sukuna.jpg" alt="itachi">
 
             <div >
@@ -40,7 +43,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card"  data-aos="fade-in-left">
             <img src="./Abdullahi.jpg" alt="abdullahi">
 
             <div >
@@ -49,7 +52,7 @@
                 <a href="#" class="btn">Meet Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-right" data-aos-anchor-placement="top-top">
             <img src="./Zen - 1.png" alt="zenitsu">
 
             <div >
@@ -58,7 +61,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-left">
             <img src="Naruto - 1.png" alt="naruto">
 
             <div >
@@ -67,7 +70,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-right" data-aos-anchor-placement="bottom-bottom">
             <img src="./Zen - 2.png" alt="zenitsu">
 
             <div >
@@ -76,7 +79,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-left">
             <img src="./Naruto - 2.jpg" alt="naruto">
 
             <div >
@@ -85,7 +88,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-right">
             <img src="./Zen - 3.png" alt="naruto">
 
             <div >
@@ -94,7 +97,7 @@
                 <a href="#" class="btn">Buy Now</a>
             </div>
         </section>
-        <section class="card">
+        <section class="card" data-aos="fade-in-left">
             <img src="./Naruto - 3.jpg" alt="naruto">
 
             <div >
@@ -102,7 +105,18 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur fugit, maxime doloremque architecto nobis suscipit?</p>
                 <a href="#" class="btn">Buy Now</a>
             </div>
+
         </section>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+    <script >
+        AOS.init({
+            offset:450,
+            delay: 100,
+            duration: 1050, 
+            easing: 'ease-in-out'
+        });
+    </script>
 </body>
 </html>
